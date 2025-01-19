@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d122e3;
+    --bs-red: #f30820;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #9926f0;
+    --bs-secondary: #d122e3;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #b30808;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  }
+
+
+*{
+   
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", serif ;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+
+nav{
+    background: linear-gradient(to bottom left, rgb(67, 131, 226), rgb(5, 67, 240));      
+}
+
+.logo image{
+    color: #fff;
+}
+.logo img{
+    font-family:"Roboto", serif ;
+    padding-top: 20px;
+}
+
+.navbar-nav{
+    font-family:"Roboto", serif ;
+    z-index: 900;
+}
+
+
+.navbar-nav a{
+    color: azure;
+    text-decoration: none;
+    transition: 0.2s;
+    padding: 5px;
+}
+a:hover{
+    color: #03fff2;
+    font-size: 18px;
+
+}
+
+
+#Accueil{
+    padding: 20px;
+    background: linear-gradient(to right, rgb(47, 0, 255), rgb(93, 188, 243));
+    opacity: 100%;
+    width: 100%;
+}
+
+#Accueil .hero-img{
+    width: auto;
+    height: 800px;
+    margin-bottom: 2px;
+    padding-bottom: 10px;
+
+}
+@media (max-width: 1199px) {
+
+    section,
+    .section {
+      scroll-margin-top: 70px;
+    }
+  }
+
+
+@media (min-width: 768px) {
+    .hero-img {
+      max-height: 800px;
+    }
+  }
+@media (max-width: 600px){
+    .hero-img{
+        width: auto;
+        height: 400px;
+    }
+} 
+
+#Accueil .container{
+    padding-top: 50px;
+}
+.container .display-1{
+    font-family:  "Roboto", serif;
+    margin-top: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+.h-1{
+    font-family:"Roboto", serif ;
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+.h-2{
+    font-family:  "Roboto", serif;
+    font-weight: 600;  
+    font-size: 20px;
+    color: white;
+}
+.container p{
+    color: #ffffff;
+    margin-top: 20px;
+}
+.container .col-6{
+    padding: 0 20px;
+}
+
+.container .col-6 button{
+    height:auto;
+    width: 250px;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: rgba(255, 255, 255, 0.15);
+}
+
+.container .col-md-12 img{
+    width: auto;
+    height: 400px;
+    margin-top: 40px;
+    border-radius: 20px;
+
+
+}
+
+#services{
+    background-color: white;
+}
+
+#services .container .my-5{
+    background-color: antiquewhite;
+}
+
+ .container .text-md-center{
+    color: #0d6efd;
+    font-family: "Roboto", serif ;
+    font-weight: 900;
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+.card-title .text-light {
+    font-family:"Roboto", serif ;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.card-body{
+    background: linear-gradient(to bottom left, rgb(231, 148, 204),#f043bc);      
+}
+
+#contact{
+    padding-bottom: 20px;   
+
+}
+.container .text{
+    font-family: "Roboto", serif;
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 45px;
+    color: #ffffff;
+    box-shadow: #212529;
+}
+
+.gradient{
+    background-color: #e60a78;
+    color: white;
+}
+.cta-info {
+    padding: 50px;
+}
+.form{
+    padding: 50px;
+}
+
+.d-flex   p {
+    color: #212529;
+}
+
+.social-icons a {
+    color: #333; /* Couleur des icônes */
+    font-size: 24px; /* Taille des icônes */
+    text-decoration: none; /* Supprimer la sous-ligne */
+}
+  
+.social-icons a:hover {
+    color: #007bff; /* Couleur des icônes au survol */
+}
+  
+footer{
+    background-color: #000000;
+}
+
+.col-12 h6{
+    margin-top: 26px;
+    color: #494848;
+}
+hr{
+    border: 3px solid;
+}
